@@ -1,0 +1,13 @@
+{
+  "extends": "@utils/tsconfig",
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../typings/**/*.d.ts"
+  ]
+}
